@@ -15,7 +15,7 @@ C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50616
+49200
 Successfully changed project path to: C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
 C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17088] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 1932745801 [EditorId] 1932745801 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22248] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3175355416 [EditorId] 3175355416 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17088] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 1932745801 [EditorId] 1932745801 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22248] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3175355416 [EditorId] 3175355416 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 7.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003812 seconds.
-- Loaded All Assemblies, in  0.271 seconds
+Registered in 0.006203 seconds.
+- Loaded All Assemblies, in  0.366 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.196 seconds
-Domain Reload Profiling: 466ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.335 seconds
+Domain Reload Profiling: 701ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (82ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (98ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (196ms)
+	FinalizeReload (336ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (154ms)
+		SetupLoadedEditorAssemblies (272ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 466ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.476 seconds
-Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.607 seconds
-Domain Reload Profiling: 1081ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1548ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (236ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (318ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (101ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (607ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (872ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (497ms)
+		SetupLoadedEditorAssemblies (726ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (393ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (588ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4935 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (347.0 KB). Loaded Objects now: 5394.
-Memory consumption went from 225.4 MB to 225.1 MB.
-Total: 3.962600 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.120200 ms MarkObjects: 3.460500 ms  DeleteObjects: 0.179000 ms)
+Unloading 66 unused Assets / (346.9 KB). Loaded Objects now: 5397.
+Memory consumption went from 229.2 MB to 228.9 MB.
+Total: 4.458600 ms (FindLiveObjects: 0.555400 ms CreateObjectMapping: 0.221400 ms MarkObjects: 3.448200 ms  DeleteObjects: 0.232500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,263 +181,120 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 46003.300355 seconds.
-  path: Assets/Assets/3D/Envi/General/Pilaster
-  artifactKey: Guid(c0166bf8998ebdb4f84dfb573a792c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/Pilaster using Guid(c0166bf8998ebdb4f84dfb573a792c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b77f4b99cf7019b7b5ca1a7a20848365') in 0.002265 seconds
+  Time since last request: 3597.329814 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Blocks
+  artifactKey: Guid(619a842a19282554597b2f393c09d82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Blocks using Guid(619a842a19282554597b2f393c09d82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d752c7843ca3f296fa4ea51b73f7c70') in 0.003712 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 403.999912 seconds.
-  path: Assets/Scenes/Ujicoba Asset.unity
-  artifactKey: Guid(c90a9b333ad084647a38ab126c639631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ujicoba Asset.unity using Guid(c90a9b333ad084647a38ab126c639631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '65241491cfef6f0a1417862b1537c791') in 0.000900 seconds
+  Time since last request: 0.038392 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Blocks/BlockStack.prefab
+  artifactKey: Guid(436933265c6430c4c9e7ea3760adef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Blocks/BlockStack.prefab using Guid(436933265c6430c4c9e7ea3760adef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '97e12c68b21b82978c421f432ba3b8ba') in 0.446722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 11.809503 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Dog
+  artifactKey: Guid(f52c6540c2798cd4a9ed2651c625073f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Dog using Guid(f52c6540c2798cd4a9ed2651c625073f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04093d8c67e7a9bcd0dd60591724e32e') in 0.000617 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 167.098507 seconds.
-  path: Assets/Horror School Props/Demo
-  artifactKey: Guid(a21676769339e844bb2db97d27cea8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Demo using Guid(a21676769339e844bb2db97d27cea8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '600d05cfe20c7421ff4e592ecf94731b') in 0.000599 seconds
+  Time since last request: 0.052673 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Dog/WoodenDog.prefab
+  artifactKey: Guid(a8418a240607ae344a2d08cdd71d0728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Dog/WoodenDog.prefab using Guid(a8418a240607ae344a2d08cdd71d0728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b008988c08d4ed2b602a40010834c4e8') in 0.031710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 15.601922 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs
+  artifactKey: Guid(70b01da3688b0ea4a92ab7011229f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs using Guid(70b01da3688b0ea4a92ab7011229f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc06d545813571a250cee9401620cf2f') in 0.000747 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.407236 seconds.
-  path: Assets/Horror School Props/Demo/Horror School Props DEMO.unity
-  artifactKey: Guid(86a4802b8837c344ba943a5b20b2cebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Demo/Horror School Props DEMO.unity using Guid(86a4802b8837c344ba943a5b20b2cebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bb653f8e538333de72b6c7eee6ae7248') in 0.000603 seconds
+  Time since last request: 54.989397 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/mainan/Block
+  artifactKey: Guid(fe408dee54e7cff48b44cd49784a1768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/mainan/Block using Guid(fe408dee54e7cff48b44cd49784a1768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '11baf914cca7c1f6b41f45a606df1b55') in 0.000537 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.185754 seconds.
-  path: Assets/Horror School Props/Models
-  artifactKey: Guid(04d0591aecd2e8d47be994fae2c77529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Models using Guid(04d0591aecd2e8d47be994fae2c77529) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f8b22f716b4422d4ed676568c6bc8023') in 0.000504 seconds
+  Time since last request: 28.121592 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Fishing Magnets/FishingMagnets.prefab
+  artifactKey: Guid(4170d1aa1b8b731449a5acf0e74fb66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Fishing Magnets/FishingMagnets.prefab using Guid(4170d1aa1b8b731449a5acf0e74fb66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2106596b24d90bb1132f837dd74c589a') in 0.046785 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 63
 ========================================================================
 Received Import Request.
-  Time since last request: 0.083692 seconds.
-  path: Assets/Horror School Props/Models/Blackboard.fbx
-  artifactKey: Guid(94c5e37fc45a6044981455d82c3c35b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Models/Blackboard.fbx using Guid(94c5e37fc45a6044981455d82c3c35b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.452686 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Hammer Table/HammerTable.prefab
+  artifactKey: Guid(95c6a7558500ee44dac7b743a3ec1238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Hammer Table/HammerTable.prefab using Guid(95c6a7558500ee44dac7b743a3ec1238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6c9490ce7e75837cbaf811a75763017') in 0.026477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.392983 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Rattles/RattleWithBall.prefab
+  artifactKey: Guid(3864b4eb6bd01a643b1dcd2327fcf63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Rattles/RattleWithBall.prefab using Guid(3864b4eb6bd01a643b1dcd2327fcf63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '842ea1dc645837d226a192e5296c812d') in 0.026006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Rattles/RingOfRingsFBX.fbx
+  artifactKey: Guid(5ad30762dff0d394393a57c512e4f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Rattles/RingOfRingsFBX.fbx using Guid(5ad30762dff0d394393a57c512e4f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '94c2829a609f63ebe0048a9797abd17a') in 0.443718 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08773ad1dd470154dc274ba4bf8b1b31') in 0.095272 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/Horror School Props/Models/Large_Shelf.fbx
-  artifactKey: Guid(7a26b7d4cc2fc91429cc3887c9f1ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Models/Large_Shelf.fbx using Guid(7a26b7d4cc2fc91429cc3887c9f1ace9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  path: Assets/Wooden Toy Pack/Prefabs/Wooden Rattles/RattleWithRings.prefab
+  artifactKey: Guid(062ab59a6a161a54c80770bdc62ce85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden Toy Pack/Prefabs/Wooden Rattles/RattleWithRings.prefab using Guid(062ab59a6a161a54c80770bdc62ce85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '562d40fb480978bcd9db3e9b60bf96a4') in 0.032119 seconds
+ -> (artifact id: 'f6f3b0c0446b8c7eb521cee3fdddb706') in 0.026250 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 9.370689 seconds.
-  path: Assets/Horror School Props/Materials/Book.mat
-  artifactKey: Guid(faa696ba114eff840bcf2b45b6373ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Materials/Book.mat using Guid(faa696ba114eff840bcf2b45b6373ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'acf35894620066a5361e8c1a629e01f7') in 0.028573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Horror School Props/Materials/Pencil_Box.mat
-  artifactKey: Guid(79ff984e74a8fc94fb43fd954332c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Materials/Pencil_Box.mat using Guid(79ff984e74a8fc94fb43fd954332c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3d5485bb14ab6770350f1759db69b718') in 0.012842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Horror School Props/Materials/Teacher_Chair.mat
-  artifactKey: Guid(060776c5649724542a491b93c185d2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Materials/Teacher_Chair.mat using Guid(060776c5649724542a491b93c185d2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1892563188aabfd6b6bcc62c17dcba13') in 0.045771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Horror School Props/Materials/Sch_Table.mat
-  artifactKey: Guid(843da16fab42b8046a99151f323fe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Materials/Sch_Table.mat using Guid(843da16fab42b8046a99151f323fe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a71a145c43d1b6128b408b4fc806bf15') in 0.343525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Horror School Props/Materials/wall.mat
-  artifactKey: Guid(02a1ca010017a044cb4d046c796bd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Materials/wall.mat using Guid(02a1ca010017a044cb4d046c796bd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b92c9df47f66c76e288a38fc69db0d1d') in 0.075488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Horror School Props/Materials/Sch_Chair.mat
-  artifactKey: Guid(54f4104db6d9f91449786e8c3d962232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Materials/Sch_Chair.mat using Guid(54f4104db6d9f91449786e8c3d962232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '21dbcc3dd94029a04c60c3d4763b0726') in 0.054700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 4.995545 seconds.
-  path: Assets/Horror School Props/Prefabs/Book.prefab
-  artifactKey: Guid(dbc490f90759d724a8f076c4c8af84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Book.prefab using Guid(dbc490f90759d724a8f076c4c8af84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '664cf871c46f53a9c5d92ce7422cd29b') in 0.020675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Horror School Props/Prefabs/Teacher_Chair.prefab
-  artifactKey: Guid(78622f696f6248e4dbc85cadd8905044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Teacher_Chair.prefab using Guid(78622f696f6248e4dbc85cadd8905044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8d8f492ade5a8a958dca7c6a6a89f03c') in 0.033944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Horror School Props/Prefabs/Sch_Table.prefab
-  artifactKey: Guid(386e3120a734f7047b962dc928686f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Sch_Table.prefab using Guid(386e3120a734f7047b962dc928686f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e3f4c90e0f104ca644d522385c23228d') in 0.027847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 1.958120 seconds.
-  path: Assets/Horror School Props/Textures/Blackboard_Blackboard_MetallicSmoothness.png
-  artifactKey: Guid(59087667adc74e249ac1e17169e5e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Blackboard_Blackboard_MetallicSmoothness.png using Guid(59087667adc74e249ac1e17169e5e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '906f2da9f7cf815ab74c52ac74de1a89') in 0.024615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Horror School Props/Textures/Book_Book_MetallicSmoothness 1.png
-  artifactKey: Guid(2dba390f26df5f04fb76bc43ff75cd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Book_Book_MetallicSmoothness 1.png using Guid(2dba390f26df5f04fb76bc43ff75cd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b3acf4ab5f1a5b7f67181c934e8b691c') in 0.014448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Horror School Props/Textures/Sch_Table_Sch_Table_AlbedoTransparency.png
-  artifactKey: Guid(7a446b7b3415cc145b28934066f1dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Sch_Table_Sch_Table_AlbedoTransparency.png using Guid(7a446b7b3415cc145b28934066f1dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '388dbf5c7af8df9880220cbc4a3f4a7d') in 0.017087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Horror School Props/Textures/Pencil_Box_Pencil_Box_Normal.png
-  artifactKey: Guid(b799e588cb2d81943a275ff637b9e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Pencil_Box_Pencil_Box_Normal.png using Guid(b799e588cb2d81943a275ff637b9e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b52d28382a4760148012dc5444faf926') in 0.017520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Horror School Props/Textures/Paper_Paper_Normal.png
-  artifactKey: Guid(0e731e9bbb5a0094fa29715354f47b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Paper_Paper_Normal.png using Guid(0e731e9bbb5a0094fa29715354f47b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3b517f40892fca8b60206a25e1e089b7') in 0.014911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Horror School Props/Textures/Teacher_Desk_Teacher_Desk_Normal.png
-  artifactKey: Guid(86616c3a834e1f04f9da2502934d46ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Teacher_Desk_Teacher_Desk_Normal.png using Guid(86616c3a834e1f04f9da2502934d46ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2a1306836daf5fffe647621c6343c166') in 0.017809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Horror School Props/Textures/Teacher_Chair_Teacher_Chair_AlbedoTransparency.png
-  artifactKey: Guid(17f78bacf47f2f44e9c97c99da569360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Teacher_Chair_Teacher_Chair_AlbedoTransparency.png using Guid(17f78bacf47f2f44e9c97c99da569360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1354daa6e13f9857bab7ad6606011f62') in 0.015143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Horror School Props/Textures/Lunch_Box_Lunch_Box_MetallicSmoothness.png
-  artifactKey: Guid(95552cbf727997b409e2bc3684b7e295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Lunch_Box_Lunch_Box_MetallicSmoothness.png using Guid(95552cbf727997b409e2bc3684b7e295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '02fd4376273a348979e0129c3f4845f9') in 0.014476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Horror School Props/Textures/Sch_Chair_Sch_Chair_Normal.png
-  artifactKey: Guid(0c5f39f1f310c524d85bb7d9d1d5d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Sch_Chair_Sch_Chair_Normal.png using Guid(0c5f39f1f310c524d85bb7d9d1d5d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5d35e997d95177008e88273c15603d18') in 0.018531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Horror School Props/Textures/Paper_Paper_Metallic.png
-  artifactKey: Guid(011b5e3f9f8f4ab4dae26c644143d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Textures/Paper_Paper_Metallic.png using Guid(011b5e3f9f8f4ab4dae26c644143d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ed771ed75936ce45420f72bb3afd59c0') in 0.005972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 48
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

@@ -15,7 +15,7 @@ C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-62835
+50616
 Successfully changed project path to: C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
 C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/Mandala-Uireng/Mandala-Uireng
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1280] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 204191074 [EditorId] 204191074 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23228] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 2590322199 [EditorId] 2590322199 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1280] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 204191074 [EditorId] 204191074 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23228] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 2590322199 [EditorId] 2590322199 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 7.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -70,34 +70,34 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003713 seconds.
-- Loaded All Assemblies, in  0.271 seconds
+Registered in 0.004302 seconds.
+- Loaded All Assemblies, in  0.249 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.190 seconds
-Domain Reload Profiling: 460ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.187 seconds
+Domain Reload Profiling: 435ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (94ms)
-		LoadAssemblies (99ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (92ms)
-				TypeCache.ScanAssembly (82ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (86ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (190ms)
+	FinalizeReload (188ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (147ms)
@@ -107,7 +107,7 @@ Domain Reload Profiling: 460ms
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (102ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 460ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.570 seconds
-Domain Reload Profiling: 1033ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (297ms)
-		LoadAssemblies (229ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (267ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (109ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (110ms)
 				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (570ms)
+	FinalizeReload (618ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
+		SetupLoadedEditorAssemblies (513ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (369ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4935 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (347.9 KB). Loaded Objects now: 5392.
-Memory consumption went from 200.1 MB to 199.8 MB.
-Total: 3.269000 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.151500 ms MarkObjects: 2.634400 ms  DeleteObjects: 0.202700 ms)
+Unloading 66 unused Assets / (346.8 KB). Loaded Objects now: 5397.
+Memory consumption went from 229.2 MB to 228.9 MB.
+Total: 3.376600 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.253400 ms MarkObjects: 2.683700 ms  DeleteObjects: 0.176300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,172 +181,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4376.545727 seconds.
-  path: Assets/Modular European House/Prefabs/Border_2_Small.prefab
-  artifactKey: Guid(1cb6a0bfedba60646989131d0703e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Prefabs/Border_2_Small.prefab using Guid(1cb6a0bfedba60646989131d0703e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 47774.731323 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/clock/Texture/jam_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(9cc49a184909a4e46a6227d1cd32f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/clock/Texture/jam_DefaultMaterial_BaseColor.png using Guid(9cc49a184909a4e46a6227d1cd32f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c6ab7d4174d58602ac2b02f10cc876be') in 0.265701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 2.870495 seconds.
-  path: Assets/Modular European House/Textures/Basecolor/T_Cypress_BC.tif
-  artifactKey: Guid(52d2c14ed91eb4b4d8987fcc86c0e2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Basecolor/T_Cypress_BC.tif using Guid(52d2c14ed91eb4b4d8987fcc86c0e2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f33e254d7a1b91be3605e8f792da913d') in 0.036393 seconds
+ -> (artifact id: '7b5c7f28bbad1bcf9a448df4f3e12aad') in 0.072389 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.679030 seconds.
-  path: Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Balcony_2_BC.tif
-  artifactKey: Guid(9e2c76cbbc1971c4186009565b5405fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Balcony_2_BC.tif using Guid(9e2c76cbbc1971c4186009565b5405fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000845 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/mainan/green/limassegi4_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(198a96dcee13e9f4bb18271d2591d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/mainan/green/limassegi4_DefaultMaterial_BaseMap.png using Guid(198a96dcee13e9f4bb18271d2591d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ada163b6df29095db1bf879ce0e666db') in 0.029254 seconds
+ -> (artifact id: '975b5f2ab3fc1e7de5e7b22e4e34ece5') in 0.019885 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Window_Frames_1_BC.tif
-  artifactKey: Guid(edeeddb9981a1d94caf067696f27abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Window_Frames_1_BC.tif using Guid(edeeddb9981a1d94caf067696f27abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/mainan/red/limassegi4_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(586cf90169d0d3345a86aaf7a2bd9322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/mainan/red/limassegi4_DefaultMaterial_MaskMap.png using Guid(586cf90169d0d3345a86aaf7a2bd9322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5bb0cb98c102fc45513a02cd60827517') in 0.020804 seconds
+ -> (artifact id: '56e836004f809014b81893d17db12a23') in 0.029480 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Tops_BC.tif
-  artifactKey: Guid(2410c683b9b623d489ca0ca3f2d63921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Tops_BC.tif using Guid(2410c683b9b623d489ca0ca3f2d63921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/mainan/green/limassegi4_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(eae7e83b785ae7345800b99de6d6b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/mainan/green/limassegi4_DefaultMaterial_MaskMap.png using Guid(eae7e83b785ae7345800b99de6d6b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6aceb78c48c307412193d660bb08338f') in 0.013923 seconds
+ -> (artifact id: 'e0b26bb7dc68bedbf839257c6591694d') in 0.018337 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Roof_3_BC.tif
-  artifactKey: Guid(5e334a2ccf71b5e4f99f9c29beaeda83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Basecolor/Building_Parts/T_Roof_3_BC.tif using Guid(5e334a2ccf71b5e4f99f9c29beaeda83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/mainan/blue/limassegi4_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(893f576c73a18a04fbc20629fe9a9fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/mainan/blue/limassegi4_DefaultMaterial_MaskMap.png using Guid(893f576c73a18a04fbc20629fe9a9fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'efac84c4a5597f77fa968cf022a4f2c8') in 0.016139 seconds
+ -> (artifact id: '4cd6ad4124177720f9bcd8e09122017d') in 0.011853 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.218012 seconds.
-  path: Assets/Modular European House/Textures/Metallic/Building_Parts/T_Balcony_2_M.tif
-  artifactKey: Guid(78cd6830a8513a14293d92e247f7f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Metallic/Building_Parts/T_Balcony_2_M.tif using Guid(78cd6830a8513a14293d92e247f7f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/meja/Texture/low_meja_DefaultMaterial_ao.png
+  artifactKey: Guid(96c81bda94269f44dba10ce8f3ddab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/meja/Texture/low_meja_DefaultMaterial_ao.png using Guid(96c81bda94269f44dba10ce8f3ddab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '225489b97fb8a91bf208fec9559b7850') in 0.031586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Modular European House/Textures/Metallic/Building_Parts/T_Wall_Biege_M.tif
-  artifactKey: Guid(47c18322961986f4cbbd0b5ed26bb38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Metallic/Building_Parts/T_Wall_Biege_M.tif using Guid(47c18322961986f4cbbd0b5ed26bb38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0144bcb0a2dc93ec132c722509fcba10') in 0.008946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Modular European House/Textures/Metallic/Building_Parts/T_Tops_M.tif
-  artifactKey: Guid(705393f18d6b3e54ebc9fe7cd1fedf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular European House/Textures/Metallic/Building_Parts/T_Tops_M.tif using Guid(705393f18d6b3e54ebc9fe7cd1fedf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'df5365472ac37b9420ff5e10f12aa2f0') in 0.008819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 106.626738 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Balcony_2_BC.tif
-  artifactKey: Guid(0c0f9c652a3bc9949b12cb9df98164ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Balcony_2_BC.tif using Guid(0c0f9c652a3bc9949b12cb9df98164ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '91cee71d7c4cad8a45b09beb920f4ac5') in 0.015509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Window_Glass_1_1_BC.tif
-  artifactKey: Guid(de9cf61e761001d41929a35894a64064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Window_Glass_1_1_BC.tif using Guid(de9cf61e761001d41929a35894a64064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7efadde92f3bc8591afc79f6c7f827e9') in 0.016000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Window_Frames_2_BC.tif
-  artifactKey: Guid(e55f9be38364dd4499dcdcb4f9df384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Window_Frames_2_BC.tif using Guid(e55f9be38364dd4499dcdcb4f9df384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f3d2f17280abede987b2f4c3fa9ee684') in 0.008636 seconds
+ -> (artifact id: '6ee3077548d94e0a2a266d78d7100ae2') in 0.027120 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Bases_BC.tif
-  artifactKey: Guid(c6904f3bb9381fd4e801de5544d82be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Bases_BC.tif using Guid(c6904f3bb9381fd4e801de5544d82be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/meja/Texture/low_meja_DefaultMaterial_Normal.png
+  artifactKey: Guid(a9ea3b0c2c66bb64ca58b877c611609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/meja/Texture/low_meja_DefaultMaterial_Normal.png using Guid(a9ea3b0c2c66bb64ca58b877c611609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b20ce9b8b49bdcbd506eb29a292fbf49') in 0.016168 seconds
+ -> (artifact id: '84c41ca6516d4480882353ac94ade123') in 0.047661 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Cornices_BC.tif
-  artifactKey: Guid(5980d8a39c182d6439d84c80a18be545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Cornices_BC.tif using Guid(5980d8a39c182d6439d84c80a18be545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/mainan/red/limassegi4_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(4e32dda05dcc7da45881e758d8832b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/mainan/red/limassegi4_DefaultMaterial_BaseMap.png using Guid(4e32dda05dcc7da45881e758d8832b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ff77516a58c65ad3cdb7d18241228ecd') in 0.015174 seconds
+ -> (artifact id: 'a63909219fb847845c1119e778a2183e') in 0.020750 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Roof_3_BC.tif
-  artifactKey: Guid(15b496752c2b2984292b9862ee648a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Roof_3_BC.tif using Guid(15b496752c2b2984292b9862ee648a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/3D/Envi/Chap Anak-anak/clock/Texture/jam_DefaultMaterial_Height.png
+  artifactKey: Guid(7bdbd07edeed4ca418c40cc6dac731c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D/Envi/Chap Anak-anak/clock/Texture/jam_DefaultMaterial_Height.png using Guid(7bdbd07edeed4ca418c40cc6dac731c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f326165b4d3e52b9c82b9445a768c222') in 0.014339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Window_Frames_1_BC.tif
-  artifactKey: Guid(b2482f2df527cd0449845a2d82925ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Window_Frames_1_BC.tif using Guid(b2482f2df527cd0449845a2d82925ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '245a0be31bd35ee23c96875ccb3eff79') in 0.010474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Assets/3D/Envi/General/T_Wall_Orange_2_BC.tif
-  artifactKey: Guid(9f5e34d211e3d4046909a1e1c3441c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/3D/Envi/General/T_Wall_Orange_2_BC.tif using Guid(9f5e34d211e3d4046909a1e1c3441c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '717fcfc0744430e1d5dca0e2c2f059e4') in 0.015371 seconds
+ -> (artifact id: '2b934aed595189385fb04c798eeb9444') in 0.019571 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
